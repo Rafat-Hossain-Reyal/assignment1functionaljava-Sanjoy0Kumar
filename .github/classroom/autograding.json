@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Running The Project",
+      "setup": "",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Factorial",
+      "setup": "",
+      "run": "gradle test",
+      "input": "4",
+      "output": "24",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
